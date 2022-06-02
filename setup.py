@@ -6,7 +6,7 @@ data_files = []
 
 data_files.append(("share/" + package_name + "/" + package_name, [package_name + "/camera_plugin.py"]))
 data_files.append(("share/" + package_name + "/resource", ["resource/Camera.urdf"]))
-data_files.append(("share/" + package_name + "/launch", ["launch/launch_sim_camera_node.py"]))
+data_files.append(("share/" + package_name + "/launch", ["launch/launch_scenario.py", "launch/launch_sim_camera_node.py"]))
 
 
 setup(
